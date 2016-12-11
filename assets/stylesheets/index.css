@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: red;
+}
+.container-fluid {
+	margin: 0;
+	width: 100%;
+}
+.slider-image img{
+	width: 100%;
+	position: relative;
+}
+h2 span{
+	position: absolute;
+	top: 200px;
+	right: 100px;
+}
