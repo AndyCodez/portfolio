@@ -7,7 +7,7 @@
 	margin: 0;
 	width: 100%;
 }
-.slider-image img{
+.slider-image>img{
 	width: 100%;
 	position: relative;
 }
@@ -39,6 +39,17 @@ p span {
 .portfolio-showcase {
 	margin: 65px;
 	width: 300px;
+}
+.social-media-icon span{
+	position: absolute;
+	bottom: 30px;
+	left: 50px;
+}
+.social-media-icon img {
+	width: 50px;
+}
+#twitter-icon {
+	left: 200px;
 }
 footer {
 	background-color: #150E03;
