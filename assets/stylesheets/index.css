@@ -11,10 +11,24 @@
 	width: 100%;
 	position: relative;
 }
-h2 span{
+.slider-image h1 {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 700;
+	font-size: 50px;
+}
+.slider-image p {
+	font-family: 'Glegoo', serif;
+	font-size: 20px;
+}
+h1 span{
 	position: absolute;
 	top: 200px;
-	right: 100px;
+	right: 60px;
+}
+p span {
+	position: absolute;
+	top: 260px;
+	right: 60px;	
 }
 .portfolio img{
 	padding: 5px;
