@@ -45,11 +45,18 @@ p span {
 	bottom: 30px;
 	left: 50px;
 }
-.social-media-icon img {
-	width: 50px;
+.social-media-icon i {
+
+	padding: 50px;
+	font-size: 2.9em;
+	border-radius: 50%;
+	background-color: #fefafa;
 }
 #twitter-icon {
 	left: 200px;
+}
+#fb-icon {
+	left: 20px;
 }
 footer {
 	background-color: #150E03;
