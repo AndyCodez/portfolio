@@ -46,11 +46,9 @@ p span {
 	left: 50px;
 }
 .social-media-icon i {
-
 	padding: 50px;
-	font-size: 2.9em;
 	border-radius: 50%;
-	background-color: #fefafa;
+	background-color: blue;
 }
 #twitter-icon {
 	left: 200px;
