@@ -1,7 +1,6 @@
 *{
 	margin: 0;
 	padding: 0;
-	color: blue;
 }
 .container-fluid {
 	margin: 0;
@@ -30,6 +29,10 @@ p span {
 	top: 260px;
 	right: 60px;	
 }
+.portfolio h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 100;
+}
 .portfolio img{
 	padding: 5px;
 	margin-bottom: 50px;
@@ -51,6 +54,8 @@ p span {
 	border-radius: 0%;
 	width: 130px;
 	color: #FFFFFF;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
 }
 #twitter-icon {
 	left: 180px;
