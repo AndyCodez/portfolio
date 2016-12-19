@@ -2,9 +2,23 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+	clear: both;
+}
 .container-fluid {
 	margin: 0;
 	width: 100%;
+}
+.topbar {
+	background-color:  transparent;
+	height: 70px;
+	width: 100%;
+}
+.topbar li {
+	margin: 10px;
+}
+.topbar ul {
+	margin-right: 50px;
 }
 .slider-image>img{
 	width: 100%;
