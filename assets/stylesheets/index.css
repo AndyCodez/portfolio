@@ -33,12 +33,13 @@ p span {
 .portfolio img{
 	padding: 5px;
 	margin-bottom: 50px;
-	height: 400px;
+	height: 350px;
 	box-shadow: 2px 2px 10px #050608;
+	width: 300px;
 }
 .portfolio-showcase {
-	margin: 65px;
-	width: 300px;
+	margin: 60px;
+	max-width: 300px;
 }
 .social-media-icon span{
 	position: absolute;
