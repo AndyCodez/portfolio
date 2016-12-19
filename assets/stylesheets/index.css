@@ -74,7 +74,8 @@ p span {
 }
 footer {
 	background-color: #756C67;
-	height: 50px;
+	height: 60px;
+	width: 100%;
 }
 footer p {
 	padding: 15px;
