@@ -45,17 +45,25 @@ p span {
 	bottom: 30px;
 	left: 50px;
 }
-.social-media-icon i {
-	padding: 50px;
-	border-radius: 50%;
-	background-color: blue;
+.social-media-icon button {
+	padding: 10px;
+	border-radius: 0%;
+	width: 130px;
+	color: #FFFFFF;
 }
 #twitter-icon {
-	left: 200px;
+	left: 180px;
 }
 #fb-icon {
 	left: 20px;
 }
+#fb-button {
+	background-color: #3B5998;
+}
+#twitter-button {
+	background-color: #42C7F4;
+}
+
 footer {
 	background-color: #150E03;
 }
