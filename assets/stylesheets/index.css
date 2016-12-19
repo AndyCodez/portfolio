@@ -69,7 +69,10 @@ p span {
 #twitter-button {
 	background-color: #42C7F4;
 }
-
 footer {
 	background-color: #150E03;
+	height: 50px;
+}
+footer p {
+	padding: 15px;
 }
