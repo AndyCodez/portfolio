@@ -10,12 +10,16 @@
 <body>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
 	<div class="topbar navbar-fixed-top">
 		<div class="navbar-right">
-			<ul class="nav navbar-nav">
+			<ul class="nav navbar-nav" id="myTopNav">
 				<li><a href="#home">HOME</a></li>
 				<li><a href="#about">ABOUT</a></li>
 				<li><a href="#portfolio">PORTFOLIO</a></li>
+				<li class="icon">
+					<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+				</li>
 			</ul>	
 		</div>
 		
@@ -65,5 +69,16 @@
 	<footer>
 		<p class="text-center">Coded by <a href="https://github.com/AndyCodez">Andrew Owino</a>.</p>
 	</footer>
+	<script>
+		/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+		function myFunction() {
+			var x = document.getElementById("myTopNav");
+			if (x.className === "nav navbar-nav") {
+				x.className += " responsive";
+			} else {
+				x.className = "nav navbar-nav";
+			}
+		}
+	</script>
 </body>
 </html>

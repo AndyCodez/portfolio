@@ -116,3 +116,34 @@ footer p {
 footer a {
 	color: #FFFFFF;
 }
+/* Hide the link that opens and closes the navbar on small screens */ 
+ul.nav li.icon {
+	display: none;
+}
+/* When screen is smaller than 768px, hide all list items exest the 1st one ("HOME") 
+and display the link that opens and closes the navbar on small screens */
+@media screen and (max-width: 768px){
+	ul.nav li:not(:first-child) {display: none;}
+	ul.nav li.icon {
+		float: right;
+		display: inline-block;	
+	}
+}
+/* Make the navbar look good in small devices using "responsive" class added by JS
+on click */
+@media screen and (max-width: 768px) {
+	ul.nav.responsive { position: relative; }
+	ul.nav.responsive li.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	} 
+	ul.nav.responsive li {
+		float: none;
+		display: inline;
+	}
+	ul.nav.responsive li a{
+		display: block;
+		text-align: left;
+	}
+}
