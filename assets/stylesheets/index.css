@@ -123,6 +123,15 @@ ul.nav li.icon {
 /* When screen is smaller than 768px, hide all list items exest the 1st one ("HOME") 
 and display the link that opens and closes the navbar on small screens */
 @media screen and (max-width: 768px){
+	ul.nav { 
+		background-color: #756C67;
+		position: relative; 
+	}
+	ul.nav li.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
 	ul.nav li:not(:first-child) {display: none;}
 	ul.nav li.icon {
 		float: right;
