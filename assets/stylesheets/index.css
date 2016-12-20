@@ -53,6 +53,17 @@ p span {
 #site-owner {
 	color: #756C67;
 }
+#about {
+	margin: 20px;
+}
+#about h2{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 100;
+	margin: 20px;
+}
+#about p {
+font-family: 'Glegoo', serif;
+}
 .portfolio h2, footer {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 100;
