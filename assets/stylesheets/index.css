@@ -10,7 +10,8 @@ body {
 	width: 100%;
 }
 .topbar {
-	background-color:  transparent;
+	font-family: 'Glegoo', serif;
+	background-color:  #756C67;
 	height: 70px;
 	width: 100%;
 }
@@ -19,6 +20,12 @@ body {
 }
 .topbar ul {
 	margin-right: 50px;
+}
+.topbar a {
+	color: #FFFFFF;
+}
+.topbar a:hover {
+	color: #000;
 }
 .slider-image>img{
 	width: 100%;
