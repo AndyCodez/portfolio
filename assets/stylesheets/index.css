@@ -98,6 +98,9 @@ p span {
 #twitter-button {
 	background-color: #42C7F4;
 }
+#github-button {
+	background-color: #222222;
+}
 footer {
 	background-color: #756C67;
 	height: 60px;
