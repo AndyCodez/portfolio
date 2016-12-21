@@ -53,6 +53,11 @@ p span {
 #site-owner {
 	color: #756C67;
 }
+#greetings {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	font-size: 18px;
+}
 #about {
 	margin: 20px;
 }
@@ -79,11 +84,6 @@ p span {
 	margin: 60px;
 	max-width: 300px;
 }
-.social-media-icon span{
-	position: absolute;
-	bottom: 30px;
-	left: 50px;
-}
 .social-media-icon button {
 	padding: 10px;
 	border-radius: 0%;
@@ -91,12 +91,6 @@ p span {
 	color: #FFFFFF;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 400;
-}
-#twitter-icon {
-	left: 180px;
-}
-#fb-icon {
-	left: 20px;
 }
 #fb-button {
 	background-color: #3B5998;
@@ -136,6 +130,9 @@ and display the link that opens and closes the navbar on small screens */
 	ul.nav li.icon {
 		float: right;
 		display: inline-block;	
+	}
+	h1 span, p span{
+		display: none;
 	}
 }
 /* Make the navbar look good in small devices using "responsive" class added by JS
